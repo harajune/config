@@ -57,8 +57,8 @@ COMMANDS					*hello-commands*
 ------------------------------------------------------------------------------
 FUNCTIONS					*hello-functions*
 
-Hello()						*Hello()*
-			Just do Hello world.
+Hello({obj})					*Hello()*
+			Do hello to {obj}.
 
 
 ------------------------------------------------------------------------------

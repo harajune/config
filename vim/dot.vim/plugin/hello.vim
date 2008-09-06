@@ -33,8 +33,8 @@ set cpoptions&vim
 
 
 
-function! Hello()
-  echo 'Hello world'
+function! Hello(obj)
+  echo 'Hello' a:obj
 endfunction
 
 
