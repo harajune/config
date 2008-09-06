@@ -70,6 +70,12 @@ Hello([{obj}])					*Hello()*
 ------------------------------------------------------------------------------
 MAPPINGS					*hello-mappings*
 
+<Leader>h					*<Leader>h*
+			Same as |<Plug>Hello|.
+
+<Plug>Hello					*<Plug>Hello*
+			Do hello world.
+
 
 
 

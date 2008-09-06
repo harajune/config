@@ -45,6 +45,10 @@ endfunction
 command! -bang -nargs=+ Hello  call Hello(<q-args> . '<bang>')
 
 
+nnoremap <Plug>Hello  :<C-u>call Hello()<Return>
+nmap <Leader>h  <Plug>Hello
+
+
 
 
 let &cpoptions = s:cpoptions
