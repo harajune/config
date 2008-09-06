@@ -53,6 +53,9 @@ INTERFACE					*hello-interface*
 ------------------------------------------------------------------------------
 COMMANDS					*hello-commands*
 
+:Hello {obj}					*:Hello*
+			Do hello to {obj}.
+
 
 ------------------------------------------------------------------------------
 FUNCTIONS					*hello-functions*
