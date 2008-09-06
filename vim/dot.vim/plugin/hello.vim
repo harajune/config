@@ -42,7 +42,7 @@ function! Hello(...)
 endfunction
 
 
-command! -nargs=+ Hello  call Hello(<q-args>)
+command! -bang -nargs=+ Hello  call Hello(<q-args> . '<bang>')
 
 
 
