@@ -33,8 +33,12 @@ set cpoptions&vim
 
 
 
-function! Hello(obj)
-  echo 'Hello' a:obj
+function! Hello(...)
+  if a:0 == 0
+    echo 'Hello world'
+  else
+    echo 'Hello' a:1
+  endif
 endfunction
 
 

@@ -57,8 +57,11 @@ COMMANDS					*hello-commands*
 ------------------------------------------------------------------------------
 FUNCTIONS					*hello-functions*
 
-Hello({obj})					*Hello()*
+Hello([{obj}])					*Hello()*
 			Do hello to {obj}.
+
+			If {obj} is omitted, "world" will be used as the
+			default value.
 
 
 ------------------------------------------------------------------------------
