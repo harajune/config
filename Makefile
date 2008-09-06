@@ -115,6 +115,7 @@ GROUP_VIM_FILES=\
   $(PACKAGE_vim_bundle_FILES) \
   $(PACKAGE_vim_fakeclip_FILES) \
   $(PACKAGE_vim_flydiff_FILES) \
+  $(PACKAGE_vim_hello_FILES) \
   $(PACKAGE_vim_idwintab_FILES) \
   $(PACKAGE_vim_ku_FILES) \
   $(PACKAGE_vim_ku_bundle_FILES) \
@@ -173,6 +174,7 @@ ALL_PACKAGES=\
   vim-bundle \
   vim-fakeclip \
   vim-flydiff \
+  vim-hello \
   vim-idwintab \
   vim-ku \
   vim-ku-bundle \
@@ -234,6 +236,12 @@ PACKAGE_vim_flydiff_FILES=\
   vim/dot.vim/autoload/flydiff.vim \
   vim/dot.vim/doc/flydiff.txt \
   vim/dot.vim/plugin/flydiff.vim
+
+PACKAGE_vim_hello_ARCHIVE=vim-hello-0.0.0
+PACKAGE_vim_hello_BASE=vim/dot.vim
+PACKAGE_vim_hello_FILES=\
+  vim/dot.vim/doc/hello.txt \
+  vim/dot.vim/plugin/hello.vim
 
 PACKAGE_vim_idwintab_ARCHIVE=vim-idwintab-0.0.1
 PACKAGE_vim_idwintab_BASE=vim/dot.vim
