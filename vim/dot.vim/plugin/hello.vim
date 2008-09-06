@@ -49,6 +49,12 @@ nnoremap <Plug>Hello  :<C-u>call Hello()<Return>
 nmap <Leader>h  <Plug>Hello
 
 
+augroup PluginHello
+  autocmd!
+  autocmd BufEnter *  call Hello()
+augroup END
+
+
 
 
 let &cpoptions = s:cpoptions

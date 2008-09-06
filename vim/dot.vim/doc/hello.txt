@@ -30,6 +30,7 @@ Interface		|hello-interface|
   Commands		  |hello-commands|
   Functions		  |hello-functions|
   Mappings		  |hello-mappings|
+  Etc		  	  |hello-etc|
 Bugs			|hello-bugs|
 Changelog		|hello-changelog|
 
@@ -75,6 +76,12 @@ MAPPINGS					*hello-mappings*
 
 <Plug>Hello					*<Plug>Hello*
 			Do hello world.
+
+
+------------------------------------------------------------------------------
+ETC						*hello-etc*
+
+This plugin do |:Hello| whenever you enter to another buffer.
 
 
 
